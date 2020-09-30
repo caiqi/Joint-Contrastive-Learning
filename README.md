@@ -36,6 +36,6 @@ If you find this code or model useful for your research, please cite our paper:
     @inproceedings{cai2020joint,
       title={Joint Contrastive Learning with Infinite Possibilities},
       author={Cai, Qi and Wang, Yu and Pan, Yingwei and Yao, Ting and Mei, Tao},
-      booktitle={Thirty-fourth Conference on Neural Information Processing Systems},
+      booktitle={Advances in Neural Information Processing Systems},
       year={2020}
     }
