@@ -1,5 +1,5 @@
 # Joint Contrastive Learning with Infinite Possibilities
-This is the implementation of '**Joint Contrastive Learning with Infinite Possibilities**' [NeurIPS 2020]. The original paper can be found [here]
+This is the implementation of '**Joint Contrastive Learning with Infinite Possibilities**' [NeurIPS 2020]. The original paper can be found at https://arxiv.org/abs/2009.14776 .
 
 ## Requirements
 * torch
