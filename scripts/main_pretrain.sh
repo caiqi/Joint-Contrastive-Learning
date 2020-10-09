@@ -12,7 +12,7 @@ else
     --dist-url 'tcp://localhost:10001' --dist-backend 'nccl' --multiprocessing-distributed --world-size 1 --rank 0 \
     --mlp --moco-t 0.2 --aug-plus --cos \
     --model_version MoCoUnlimitedKeysDefault \
-    --jcl_lambda 10.0 \
+    --jcl_lambda 2.0 \
     --jcl 1 \
     --k_crops 5 \
     --epochs 200 \

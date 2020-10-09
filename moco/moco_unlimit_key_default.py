@@ -149,7 +149,7 @@ class MoCoUnlimitedKeysDefault(nn.Module):
             value_minus_mean_part_2 = value_minus_mean.permute(1, 2, 0)
             # batch_size * feature_dim * feature_dim
             k_sigma = torch.bmm(value_minus_mean_part_2, value_minus_mean_part_1) / k_tryies
-            k_sigma = k_sigma * ratio
+            k_sigma = k_sigma * ratio / self.T
 
         # compute logits
         # Einstein sum is more intuitive
